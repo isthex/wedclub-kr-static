@@ -131,3 +131,11 @@
 .combo-grid strong{font-size:14px;color:var(--brand)}
 .combo-grid span{font-size:12px;color:var(--muted)}
 @media(max-width:560px){.gift-grid{grid-template-columns:1fr}}
+
+/* 폼 여백 — id 무관 공용 선택자 (선택자 불일치 재발 방지 · HUB_STANDARD 표준) */
+.checker form{display:grid;gap:18px;margin-top:4px}
+.checker form label{font-size:14px;font-weight:700}
+.checker form .btn-primary{margin-top:8px}
+.checker .field-block{gap:10px}
+.checker .chip-group{gap:9px}
+.checker .check-result{margin-top:20px}
