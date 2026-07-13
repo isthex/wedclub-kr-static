@@ -2,7 +2,7 @@
 let selAge = 0, selG = '';
 
 document.addEventListener('DOMContentLoaded', () => {
-  if (typeof initSidebar === 'function') initSidebar({ relatedTools: [] });
+  if (typeof initSidebar === 'function') initSidebar({ relatedTools: ['05_wedding-gift-calculator', '12_size-converter', 'onnuri'] });
   const form = document.getElementById('pick-form');
   if (form) {
     document.querySelectorAll('#age-chips .chip').forEach(chip => {
